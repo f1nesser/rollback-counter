@@ -1,0 +1,25 @@
+{
+    "name": "discord-bot-rollback_counter",
+    "version": "1.0.0",
+    "description": "discord bot that takes .slp replay files and returns connection about games. avg ping and rollback count",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "run": "node ./src/app.js",
+        "dev": "nodemon ./src/app.js"
+    },
+    "author": "f1nesser",
+    "license": "ISC",
+    "dependencies": {
+        "@slippi/slippi-js": "^6.2.1",
+        "discord.js": "^13.7.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.18.0",
+        "nodemon": "^2.0.16"
+    },
+    "type": "module"
+}
