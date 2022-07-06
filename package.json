@@ -12,9 +12,12 @@
     "license": "ISC",
     "dependencies": {
         "@slippi/slippi-js": "^6.2.1",
+        "chart.js": "^3.8.0",
+        "chartjs-node-canvas": "^4.1.6",
         "discord.js": "^13.7.0",
         "dotenv": "^16.0.1",
         "express": "^4.18.1",
+        "node-fetch": "^3.2.6",
         "request": "^2.88.2"
     },
     "devDependencies": {
