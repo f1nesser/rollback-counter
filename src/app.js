@@ -1,5 +1,5 @@
 require('dotenv/config')
-const { Client, MessageAttachment } = require('discord.js')
+const { Client } = require('discord.js')
 const { validReplay, downloadFiles, cleanDirectories } = require('./utils.js')
 const { createChart } = require('./chart.js')
 

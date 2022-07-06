@@ -8,7 +8,7 @@ function downloadFiles(files) {
             const url = files[name]
             const filePath = `./replays/${name}`
             const writeStream = fs.createWriteStream(filePath)
-            const request = https.get(url, (response) => {
+            https.get(url, (response) => {
                 response.pipe(writeStream)
                 writeStream.on('finish', () => {
                     console.log(`${name} downloaded`)
