@@ -1,0 +1,15 @@
+{
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./node_modules"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "outDir": "./built",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "typeRoots": ["node_modules/@types"]
+    }
+}
