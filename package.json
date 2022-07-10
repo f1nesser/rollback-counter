@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "run": "tsc && node ./dist/index.js",
-        "start": "npx ts-node ./src/index.t",
+        "start": "npx ts-node ./src/index.ts",
         "dev": "npx ts-node ./src/index.ts"
     },
     "author": "f1nesser",
