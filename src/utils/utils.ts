@@ -1,14 +1,4 @@
-const { Files } = require('../types')
-function validReplay(files: typeof Files) {
+export function validReplay(fileName: string) {
     const regex = /.*\.slp/
-    const names = Object.keys(files)
-    let ret = true
-    names.forEach((item) => {
-        if (!regex.exec(item)) {
-            ret = false
-        }
-    })
-    return ret
+    return regex.exec(fileName)
 }
-
-exports.validReplay = validReplay

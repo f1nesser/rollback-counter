@@ -1,4 +1,3 @@
-export interface Files {
-    name: string
-    url: string
+export interface FramesAndLengths {
+    [key: string]: number
 }

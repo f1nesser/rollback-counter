@@ -1,4 +1,6 @@
-use promise based api for file fetching
-handle files through buffers
-no iffe's
-slash commands
+fixe correlate frames potentially??
+
+typescript concerns:
+concerned about usage of !.  see commands/chart.ts
+replace if else with try/catch
+
