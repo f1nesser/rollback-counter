@@ -5,23 +5,26 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "run": "node ./src/app.js",
-        "start": "node ./src/app.js",
-        "dev": "nodemon ./src/app.js"
+        "run": "tsc && node ./dist/app.js",
+        "start": "tsc && node ./dist/app.js",
+        "dev": "tsc && nodemon ./dist/app.js"
     },
     "author": "f1nesser",
     "license": "ISC",
     "dependencies": {
+        "@discordjs/builders": "^0.15.0",
+        "@discordjs/rest": "^0.5.0",
         "@slippi/slippi-js": "^6.2.1",
         "chart.js": "^3.8.0",
         "chartjs-node-canvas": "^4.1.6",
+        "discord-api-types": "^0.36.1",
         "discord.js": "^13.7.0",
         "dotenv": "^16.0.1",
-        "express": "^4.18.1",
-        "node-fetch": "^3.2.6",
-        "request": "^2.88.2"
+        "typescript": "^4.7.4",
+        "undici": "^5.6.0"
     },
     "devDependencies": {
+        "@types/node": "^18.0.3",
         "eslint": "^8.18.0",
         "nodemon": "^2.0.16"
     }

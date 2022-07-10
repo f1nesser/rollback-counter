@@ -1,0 +1,4 @@
+use promise based api for file fetching
+handle files through buffers
+no iffe's
+slash commands
